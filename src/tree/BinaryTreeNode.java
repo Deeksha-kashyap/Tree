@@ -33,4 +33,11 @@ public class BinaryTreeNode {
     public void setRight(BinaryTreeNode right) {
         this.right = right;
     }
+    public void Inorder(BinaryTreeNode root){
+        if(root!=null){
+            Inorder(root.left);
+            System.out.println(root.data);
+            Inorder(root.right);
+        }
+    }
 }
