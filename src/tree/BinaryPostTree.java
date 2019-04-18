@@ -15,7 +15,9 @@ public class BinaryPostTree {
        System.out.println(n.getData());
    }
      public void preOrderDisplay(Node n){
-
+      if(n==null){
+          return;
+      }
      }
     public static void main(String[] args) {
      BinaryPostTree obj=new BinaryPostTree();
