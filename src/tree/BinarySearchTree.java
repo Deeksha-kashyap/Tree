@@ -57,6 +57,7 @@ public class BinarySearchTree {
         return;
     }
     postOrder(n.getLeft());
+    postOrder(n.getRight());
    }
 
     public static void main(String[] args) {
