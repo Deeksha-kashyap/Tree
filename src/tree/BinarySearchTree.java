@@ -5,6 +5,9 @@ public class BinarySearchTree {
    if(root==null){
      root=newNode;
    }
+   if(root.getData()>newNode.getData()){
+
+   }
   }
 }
 class Node1{
