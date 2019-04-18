@@ -6,6 +6,13 @@ public class BinaryTree {
         n.setData(data);
         return n;
     }
+
+    public static void main(String[] args) {
+        BinaryTree obj=new BinaryTree();
+        Node root=obj.insert(2);
+        root.setLeft(obj.insert(3));
+        root.setRight(obj.insert(5));
+    }
 }
 class Node{
     private int data;
