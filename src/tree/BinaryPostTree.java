@@ -14,6 +14,10 @@ public class BinaryPostTree {
        postOrderDisplay(n.getRight());
        System.out.println(n.getData());
    }
+
+    public static void main(String[] args) {
+
+    }
 }
   class PostNode{
     private int data;
