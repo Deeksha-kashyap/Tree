@@ -29,6 +29,7 @@ public class BinaryPostTree {
      root.setRight(obj.insert(8));
      root.getLeft().setLeft(obj.insert(6));
      root.getLeft().setRight(obj.insert(5));
+        System.out.println("Print Post Order element:");
      obj.postOrderDisplay(root);
      obj.preOrderDisplay(root);
     }
