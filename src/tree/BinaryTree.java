@@ -14,7 +14,7 @@ public class BinaryTree {
         root.setRight(obj.insert(5));
         root.getLeft().setLeft(obj.insert(8));
         root.getLeft().setRight(obj.insert(9));
-
+        obj.inorderDisplay(root);
     }
     public void inorderDisplay(Node n){
       if(n==null){
