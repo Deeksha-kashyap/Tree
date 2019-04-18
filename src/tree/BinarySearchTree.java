@@ -28,7 +28,9 @@ public class BinarySearchTree {
     }else if(root.getData()>data){
         if(root.getLeft()==null) {
             System.out.println("left is empty");
-        }else
+        }else{
+            r=search(root.getLeft(),data);
+        }
     }
   }
     public static void main(String[] args) {
