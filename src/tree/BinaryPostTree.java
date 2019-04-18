@@ -19,6 +19,7 @@ public class BinaryPostTree {
           return;
       }
          System.out.println(n.getData());
+         preOrderDisplay(n.getLeft());
      }
     public static void main(String[] args) {
      BinaryPostTree obj=new BinaryPostTree();
