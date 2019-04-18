@@ -2,7 +2,7 @@ package tree;
 
 public class BinarySearchTree {
   public static Node1 insert(Node1 root,Node1 node){
-
+   if(root==null)
   }
 }
 class Node1{
