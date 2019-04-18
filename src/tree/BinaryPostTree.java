@@ -21,6 +21,7 @@ public class BinaryPostTree {
      root.setLeft(obj.insert(4));
      root.setRight(obj.insert(8));
      root.getLeft().setLeft(obj.insert(6));
+     root.getLeft().setRight(obj.insert(5));
     }
 }
   class PostNode{
