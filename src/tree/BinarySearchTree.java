@@ -20,6 +20,13 @@ public class BinarySearchTree {
    }
    return root;
   }
+
+  public static boolean search(Node1 root, int data){
+
+  }
+    public static void main(String[] args) {
+
+    }
 }
 class Node1{
   private int data;
