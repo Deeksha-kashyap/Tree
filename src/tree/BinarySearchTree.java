@@ -8,6 +8,8 @@ public class BinarySearchTree {
    if(root.getData()>newNode.getData()){
      if( root.getLeft()==null){
        root.setLeft(newNode);
+     }else{
+         insert(root.getLeft(),newNode);
      }
    }
   }
