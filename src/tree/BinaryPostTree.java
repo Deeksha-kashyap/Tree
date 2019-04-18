@@ -1,7 +1,9 @@
 package tree;
 
 public class BinaryPostTree {
+   public Node insert(int data){
 
+   }
 }
   class PostNode{
     private int data;
