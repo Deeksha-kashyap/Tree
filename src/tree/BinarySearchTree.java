@@ -11,6 +11,8 @@ public class BinarySearchTree {
      }else{
          insert(root.getLeft(),newNode);
      }
+   }else if(root.getData()<newNode.getData()){
+
    }
   }
 }
