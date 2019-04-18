@@ -6,6 +6,9 @@ public class BinaryPostTree {
     n.setData(data);
     return n;
    }
+   public void postOrderDisplay(Node n){
+
+   }
 }
   class PostNode{
     private int data;
