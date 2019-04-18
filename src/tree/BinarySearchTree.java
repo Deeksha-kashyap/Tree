@@ -25,6 +25,8 @@ public class BinarySearchTree {
     boolean r=false;
     if(root.getData()==data){
         return true;
+    }else if(root.getData()>data){
+
     }
   }
     public static void main(String[] args) {
