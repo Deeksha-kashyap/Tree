@@ -76,6 +76,7 @@ public class BinarySearchTree {
       insert(root,new Node1());
         insert(root,new Node1());
         insert(root,new Node1());
+        obj.inorder(root);
     }
 }
 class Node1{
