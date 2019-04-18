@@ -71,7 +71,8 @@ public class BinarySearchTree {
    }
 
     public static void main(String[] args) {
-
+      BinarySearchTree obj=new BinarySearchTree();
+      Node1 root=insert(null,new Node1());
     }
 }
 class Node1{
