@@ -44,7 +44,9 @@ public class BinarySearchTree {
   }
 
    public void inorderDisplay(Node1 n){
-
+     if(n==null){
+         return;
+     }
    }
 
     public static void main(String[] args) {
