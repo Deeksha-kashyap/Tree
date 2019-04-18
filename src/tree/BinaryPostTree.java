@@ -14,7 +14,9 @@ public class BinaryPostTree {
        postOrderDisplay(n.getRight());
        System.out.println(n.getData());
    }
+     public void preOrderDisplay(Node n){
 
+     }
     public static void main(String[] args) {
      BinaryPostTree obj=new BinaryPostTree();
      Node root=obj.insert(2);
