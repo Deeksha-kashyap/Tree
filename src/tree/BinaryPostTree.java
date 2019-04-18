@@ -7,7 +7,12 @@ public class BinaryPostTree {
     return n;
    }
    public void postOrderDisplay(Node n){
-
+    if(n==null){
+        return;
+    }
+    postOrderDisplay(n.getLeft());
+       postOrderDisplay(n.getRight());
+       System.out.println(n.getData());
    }
 }
   class PostNode{
