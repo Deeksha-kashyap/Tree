@@ -33,7 +33,7 @@ public class BinarySearchTree {
         }
     }else if(root.getData()<data){
       if(root.getRight()==null){
-
+          System.out.println("right is empty");
       }
     }
   }
