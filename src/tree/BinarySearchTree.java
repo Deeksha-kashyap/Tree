@@ -38,7 +38,7 @@ public class BinarySearchTree {
           r=search(root.getRight(),data);
       }
     }else if(root==null){
-
+        System.out.println("empty");
     }
   }
     public static void main(String[] args) {
