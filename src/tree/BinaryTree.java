@@ -16,6 +16,9 @@ public class BinaryTree {
         root.getLeft().setRight(obj.insert(9));
 
     }
+    public void inorderDisplay(Node n){
+
+    }
 }
 class Node{
     private int data;
