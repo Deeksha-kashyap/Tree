@@ -81,6 +81,7 @@ public class BinarySearchTree {
         System.out.println("print in post order:");
         obj.postOrder(root);
         System.out.println("print in pre order:");
+        obj.preOrder(root);
     }
 }
 class Node1{
