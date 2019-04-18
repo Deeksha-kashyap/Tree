@@ -1,8 +1,10 @@
 package tree;
 
 public class BinarySearchTree {
-  public static Node1 insert(Node1 root,Node1 node){
-   if(root==null)
+  public static Node1 insert(Node1 root, Node1 newNode){
+   if(root==null){
+     root=newNode;
+   }
   }
 }
 class Node1{
