@@ -40,6 +40,7 @@ public class BinarySearchTree {
     }else if(root==null){
         System.out.println("empty");
     }
+    return r;
   }
     public static void main(String[] args) {
 
