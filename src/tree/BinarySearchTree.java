@@ -23,6 +23,9 @@ public class BinarySearchTree {
 
   public static boolean search(Node1 root, int data){
     boolean r=false;
+    if(root.getData()==data){
+        return true;
+    }
   }
     public static void main(String[] args) {
 
