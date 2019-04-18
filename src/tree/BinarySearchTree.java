@@ -49,6 +49,7 @@ public class BinarySearchTree {
      }
      inorderDisplay(n.getLeft());
        System.out.println(n.getData());
+       inorderDisplay(n.getRight());
    }
 
     public static void main(String[] args) {
