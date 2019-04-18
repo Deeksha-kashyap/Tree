@@ -20,6 +20,7 @@ public class BinaryPostTree {
       }
          System.out.println(n.getData());
          preOrderDisplay(n.getLeft());
+         preOrderDisplay(n.getRight());
      }
     public static void main(String[] args) {
      BinaryPostTree obj=new BinaryPostTree();
