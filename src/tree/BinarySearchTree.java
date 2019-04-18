@@ -72,10 +72,18 @@ public class BinarySearchTree {
 
     public static void main(String[] args) {
       BinarySearchTree obj=new BinarySearchTree();
-      Node1 root=insert(null,new Node1());
-      insert(root,new Node1());
-        insert(root,new Node1());
-        insert(root,new Node1());
+      Node1 n=new Node1();
+      n.setData(9);
+      Node1 root=insert(null,n);
+      n.setData(8);
+      insert(root,n);
+      n.setData(11);
+      insert(root,n);
+      n.setData(6);
+     // Node1 root=insert(null,new Node1());
+    //  insert(root,new Node1());
+      //  insert(root,new Node1());
+        //insert(root,new Node1());
         System.out.println("print in inorder:");
         obj.inorder(root);
         System.out.println("print in post order:");
