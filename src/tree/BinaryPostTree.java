@@ -30,6 +30,7 @@ public class BinaryPostTree {
      root.getLeft().setLeft(obj.insert(6));
      root.getLeft().setRight(obj.insert(5));
      obj.postOrderDisplay(root);
+     obj.preOrderDisplay(root);
     }
 }
   class PostNode{
