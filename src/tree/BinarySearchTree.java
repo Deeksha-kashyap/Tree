@@ -31,6 +31,8 @@ public class BinarySearchTree {
         }else{
             r=search(root.getLeft(),data);
         }
+    }else if(root.getData()<data){
+
     }
   }
     public static void main(String[] args) {
