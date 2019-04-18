@@ -17,7 +17,12 @@ public class BinaryTree {
 
     }
     public void inorderDisplay(Node n){
-
+      if(n==null){
+          return;
+      }
+      inorderDisplay(n.getLeft());
+        System.out.println(n.getData());
+        inorderDisplay(n.getRight());
     }
 }
 class Node{
