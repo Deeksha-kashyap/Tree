@@ -16,6 +16,8 @@ public class BinaryPostTree {
    }
 
     public static void main(String[] args) {
+     BinaryPostTree obj=new BinaryPostTree();
+     Node root=obj.insert(2);
 
     }
 }
