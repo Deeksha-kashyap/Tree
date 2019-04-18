@@ -1,6 +1,9 @@
 package tree;
 
 public class BinaryTree {
+    public Node insert(int data){
+        Node n=new Node();
+    }
 }
 class Node{
     private int data;
