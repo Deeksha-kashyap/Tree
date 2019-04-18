@@ -18,6 +18,7 @@ public class BinarySearchTree {
           insert(root.getRight(),newNode);
       }
    }
+   return root;
   }
 }
 class Node1{
