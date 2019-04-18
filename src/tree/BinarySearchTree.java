@@ -43,13 +43,13 @@ public class BinarySearchTree {
     return r;
   }
 
-   public void inorderDisplay(Node1 n){
+   public void inorder(Node1 n){
      if(n==null){
          return;
      }
-     inorderDisplay(n.getLeft());
+     inorder(n.getLeft());
        System.out.println(n.getData());
-       inorderDisplay(n.getRight());
+       inorder(n.getRight());
    }
 
     public static void main(String[] args) {
