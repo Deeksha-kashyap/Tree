@@ -2,7 +2,9 @@ package tree;
 
 public class BinaryPostTree {
    public Node insert(int data){
-
+    Node n=new Node();
+    n.setData(data);
+    return n;
    }
 }
   class PostNode{
