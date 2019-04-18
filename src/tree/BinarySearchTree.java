@@ -42,6 +42,11 @@ public class BinarySearchTree {
     }
     return r;
   }
+
+   public void inorderDisplay(Node1 n){
+
+   }
+
     public static void main(String[] args) {
 
     }
