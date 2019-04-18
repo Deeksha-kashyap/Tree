@@ -62,7 +62,9 @@ public class BinarySearchTree {
    }
 
    public void preOrder(Node1 n){
-
+     if(n==null){
+         return;
+     }
    }
 
     public static void main(String[] args) {
