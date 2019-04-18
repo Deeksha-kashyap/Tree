@@ -65,6 +65,7 @@ public class BinarySearchTree {
      if(n==null){
          return;
      }
+       System.out.println(n.getData());
    }
 
     public static void main(String[] args) {
