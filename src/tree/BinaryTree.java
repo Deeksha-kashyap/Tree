@@ -3,6 +3,8 @@ package tree;
 public class BinaryTree {
     public Node insert(int data){
         Node n=new Node();
+        n.setData(data);
+        return n;
     }
 }
 class Node{
