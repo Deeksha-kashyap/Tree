@@ -61,6 +61,10 @@ public class BinarySearchTree {
        System.out.println(n.getData());
    }
 
+   public void preOrder(Node1 n){
+
+   }
+
     public static void main(String[] args) {
 
     }
