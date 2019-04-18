@@ -85,6 +85,8 @@ public class BinarySearchTree {
         boolean r=search(root,10);
         if(r==true){
             System.out.println("Success");
+        }else{
+            System.out.println("not found");
         }
     }
 }
