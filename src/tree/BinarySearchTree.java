@@ -47,6 +47,7 @@ public class BinarySearchTree {
      if(n==null){
          return;
      }
+     inorderDisplay(n.getLeft());
    }
 
     public static void main(String[] args) {
