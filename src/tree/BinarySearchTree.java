@@ -14,6 +14,8 @@ public class BinarySearchTree {
    }else if(root.getData()<newNode.getData()){
       if(root.getRight()==null){
         root.setRight(newNode);
+      }else{
+          insert(root.getRight(),newNode);
       }
    }
   }
