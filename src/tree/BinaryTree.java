@@ -12,6 +12,9 @@ public class BinaryTree {
         Node root=obj.insert(2);
         root.setLeft(obj.insert(3));
         root.setRight(obj.insert(5));
+        root.getLeft().setLeft(obj.insert(8));
+        root.getLeft().setRight(obj.insert(9));
+
     }
 }
 class Node{
