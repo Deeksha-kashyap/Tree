@@ -32,7 +32,9 @@ public class BinarySearchTree {
             r=search(root.getLeft(),data);
         }
     }else if(root.getData()<data){
+      if(root.getRight()==null){
 
+      }
     }
   }
     public static void main(String[] args) {
