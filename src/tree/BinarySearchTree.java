@@ -12,7 +12,9 @@ public class BinarySearchTree {
          insert(root.getLeft(),newNode);
      }
    }else if(root.getData()<newNode.getData()){
-
+      if(root.getRight()==null){
+        root.setRight(newNode);
+      }
    }
   }
 }
