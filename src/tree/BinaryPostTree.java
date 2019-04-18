@@ -18,6 +18,7 @@ public class BinaryPostTree {
       if(n==null){
           return;
       }
+         System.out.println(n.getData());
      }
     public static void main(String[] args) {
      BinaryPostTree obj=new BinaryPostTree();
